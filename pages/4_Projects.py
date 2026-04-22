@@ -27,6 +27,16 @@ with st.expander("💡 Project Idea — Why Room Setup Planning Is Hard"):
 
 with st.expander("🔧 What I Built — The Early Prototype"):
     st.write("I built a small app mockup that explored a user flow where someone could define room constraints, select setup needs, and receive more informed setup recommendations.")
+
+    st.markdown("**App Screens**")
+    col_img1, col_img2 = st.columns(2)
+    with col_img1:
+        st.image("assets/discovery_screen_budget.png", caption="Budget & device selection screen", use_container_width=True)
+    with col_img2:
+        st.image("assets/discovery_screen_scan.png", caption="Room scan step — AR or manual entry", use_container_width=True)
+    st.caption("Screenshots from the early prototype mockup built using Anythi.ng AI and Vibe Coded.")
+
+    st.markdown("---")
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("**📷 Room Scan**")
@@ -78,10 +88,10 @@ with st.expander("🛠️ ECE Skills Gained"):
 with st.expander("💭 Final Reflection"):
     st.markdown("> *\"Even an incomplete prototype can teach a lot about technical complexity.\"*")
     st.markdown("""
-    - **Engineering Ideas Evolve** — This project showed how ideas change and improve through experimentation and honest iteration.
-    - **Complexity Is Real** — Translating a concept into reliable software is far more nuanced than it first appears.
-    - **Strengthened Interests** — The project deepened my interest in software, design, and problem-solving within engineering.
-    - **Next Steps** — If continued: improve prototype stability and make fit/compatibility logic more robust and consistent.
+    - **Engineering Ideas Evolve** — This project showed how ideas change and improve through experimentation and honest iteration. What started as a room planning tool became a gateway into thinking about how software can solve real human problems.
+    - **Complexity Is Real** — Translating a concept into reliable software is far more nuanced than it first appears. The frontend came together through tools like Anythi.ng AI and Vibe Coded, but connecting that to consistent backend logic was where the real difficulty emerged.
+    - **Shifted and Deepened Interests** — Working on this project pushed my interest further into software and human-centered design. It also made me realize I want to work on problems with more direct human impact — which is what led me toward accessibility-focused engineering, like tools designed for Deaf and hard-of-hearing users.
+    - **Next Steps** — If continued: stabilize the backend constraint logic, make compatibility checks more robust, and explore how the same constraint-modeling approach could apply to accessibility-focused software.
     """)
 
 st.divider()
